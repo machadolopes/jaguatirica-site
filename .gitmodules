@@ -1,0 +1,3 @@
+[submodule "themes/hargo-theme"]
+	path = themes/hargo-theme
+	url = https://github.com/machadolopes/Hargo-hugo-ecommerce-theme.git

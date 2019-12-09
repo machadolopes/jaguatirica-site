@@ -1,0 +1,21 @@
+############################# contact info ################
+contact:
+  enable : true
+  # office
+  office:
+    title : "Editora Gato Bravo"
+    content : ""
+    # other information comes from "config.toml"
+
+  # opennig hour
+  opennigHour:
+    title : "Horário de atendimento"
+    dayTimeList:
+      - dayTime : "Segunda: 9:00 – 17:00"
+      - dayTime : "Terça:   9:00 – 17:00"
+      - dayTime : "Quarta:  9:00 – 17:00"
+      - dayTime : "Quinta:  9:00 – 17:00"
+      - dayTime : "Sexta:   9:00 – 17:00"
+####################### google map ########################
+map:
+  enable: false

@@ -1,0 +1,149 @@
+############################ banner ##########################
+banner:
+  enable : true
+  title : "Livros para inspirar"
+  content : "A Gato·Bravo é uma editora independente e produz livros no modo impresso e digital. Publicamos autores autónomos que não encontram espaço nas editoras comerciais, além de literaturas
+brasileira, portuguesa e estrangeira de excelente qualidade."
+  image : "images/people-reading.png"
+  # button
+  button:
+    enable : true
+    label : "Recepção de originais"
+    link : "https://share.hsforms.com/1jhfKslF3TgmVXOyFuQGZ3Q3j7ne"
+  # demo video
+  video:
+    enable : false
+    videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+
+########################## About ##############################
+about:
+  enable : true
+  title : "Conheça o nosso catálogo"
+  content : "Óptimos autores. Livros excelentes, significativos e belos. Conheça a nossa produção desde 2016 a 2020."
+  image : "images/capa-catalogo1.png"
+  link: ""
+
+
+###################### Call to action ########################
+cta:
+  enable : true
+  title : "Vencedor do Prémio Autor 2018"
+  content : "Um romance na Lisboa antes da Revolução."
+  image : "images/mares-de-setembro.png"
+  overlayImage : "images/cta-overlay.png"
+  button:
+    label : "Compre aqui"
+    link : "https://www.fnac.pt/Mares-de-Setembro-Pedro-Chambel/a7237031"
+
+######################## raw material #######################
+material:
+  enable : Turmeric
+  title : "Conheça o nosso processo editorial"
+  subtitle : "Veja aqui as etapas que o seu original vai percorrer."
+  materialItem:
+    # material item loop
+    - title : "PASSO 1. <br>ANÁLISE DO ORIGINAL"
+      image : "images/material/flat-book.png"
+      content : "Fazemos a análise do original enviado para investigar, não só a qualidade do texto, como também a viabilidade da edição, o seu potencial alcance e o estimado desempenho em vendas."
+      
+    # material item loop
+    - title : "PASSO 2. <br>MODELOS DE PUBLICAÇÃO"
+      image : "images/material/flat-book.png"
+      content : "Em seguida, o autor é convidado a firmar um contrato de edição e escolher entre as diversas modalidades de publicação disponíveis."
+
+  # material item loop
+    - title : "PASSO 3. <br>PRIMEIRA REVISÃO"
+      image : "images/material/flat-book.png"
+      content : "A obra então é revista por profissionais especializados - revisores e preparadores - que deixarão o livro pronto para seguir para a fase do design.
+"
+      
+    # material item loop
+    - title : "PASSO 4. <br>PAGINAÇÃO"
+      image : "images/material/flat-book.png"
+      content : "Consolidado o texto final e formatado adequadamente, o livro segue para os profissionais do design que vão criar o projecto gráfico e distribuir o texto nas páginas para garantir legibilidade e harmonia ao texto."
+
+    # material item loop
+    - title : "PASSO 5. <br>CRIAÇÃO DE CAPA"
+      image : "images/material/flat-book.png"
+      content : "Em paralelo, a obra também segue para o designer de capa que, munido de um briefing, irá preparar os primeiros esboços da capa e contracapa seguindo os padrões do mercado para cada tipo de género literário."
+      
+    # material item loop
+    - title : "PASSO 6. <br>APROVAÇÃO DO AUTOR"
+      image : "images/material/flat-book.png"
+      content : "Os ficheiros do livro são sempre aprovados pelos autores, em consenso com a editora. Os ficheiros do livro seguem para a pré-produção da gráfica após a aprovação integral do autor."
+    
+    # material item loop
+    - title : "PASSO 7. <br>GRÁFICA"
+      image : "images/material/flat-book.png"
+      content : "Durante este período, a equipa da editora prepara a ficha comercial, efetua as últimas correções apontadas pelo setor da pré-produção, acompanha o projeto gráfico e aguarda o transporte da tiragem. Finalmente, é autorizado o agendamento do lançamento."
+
+    # material item loop
+    - title : "PASSO 8. <br>LIVRO DIGITAL"
+      image : "images/material/flat-book.png"
+      content : "Depois de o livro estar cadastrado, conforme o projeto editorial escolhido, o mesmo poderá seguir para a criação da versão digital que, ao fim, será cadastrada nas plataformas digitais mais prestigiadas do mundo."
+
+
+########################### Advantage #########################
+advantage:
+  enable : true
+  title : "Vantagens de publicar <br> connosco"
+  subtitle : "Destaque o seu livro junto aos nossos melhores títulos e autores. Publicamos ficção e não-ficção na área de humanidades."
+  image : "images/advantage_icon.png"
+  advantageList:
+    # advantage list loop
+    - listItem : "Atendimento personalizado"
+    - listItem : "Conselho editorial de excelência"
+    - listItem : "Equipa com profissionais qualificados"
+    - listItem : "Participação em eventos"
+    - listItem : "Inserção em catálogo internacional"
+    - listItem : "Maior destaque para o autor e a sua obra"
+
+
+######################## Promo Video ##########################
+video:
+  enable : true
+  title : "Conheça os nossos autores"
+  content : "Incentivamos os nossos autores a criar conteúdos digitais e interactivos para a melhor exposição nos ambientes virtuais e nas redes sociais, de modo a permitir a partilha e assim aumentar a visibilidade e a divulgação da obra."
+  videoThumb : "images/video-leonardoalmeida.png"
+  videoURL : "https://www.youtube.com/embed/ToXpJUU3yDc"
+
+
+######################## Products #############################
+products:
+  enable : true
+  title : "Destaques"
+  # product item comes from "content/products"
+
+
+########################## Testimonial ########################
+testimonial:
+  enable : true
+  title : "A opinião dos autores<br> é o que mais importa"
+  testimonialItem:
+    # testimonial item loop
+    - name : "Equipa DGLAB"
+      image : "images/clients/client.png" # size 100px*100px
+      designation : "Diretora, Maria do Céu Costa"
+      content : "Nós escolhemos a vossa Editora pela excelência do vosso trabalho."
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Rita Dias"
+      image : "images/clients/client.png" # size 100px*100px
+      designation : "Poeta, Autora de O encontro do tempo ternário"
+      content : "ADORO! É isto mesmo! Que lindo!"
+      rating : "three" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Ronaldo Cagiano"
+      image : "images/clients/client.png" # size 100px*100px
+      designation : "Contista, Autor de Eles não moram mais aqui"
+      content : "Espero que essa parceria possa trazer novo fôlego ao meu trabalho. Creio que as pequenas e médias editoras vêm fazendo a diferença, tanto no Brasil quanto aqui."
+      rating : "five" # rating star, one to five
+      
+    # testimonial item loop
+    - name : "Danilo Mendes"
+      image : "images/clients/client.png" # size 100px*100px
+      designation : "Poeta, Poesia da cabeça aos pés"
+      content : "Fiquei e estou muito feliz com todo o retorno que tive do livro. Muito amor por este trabalho!"
+      rating : "four" # rating star, one to five

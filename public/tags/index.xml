@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Editora Gato Bravo</title>
+    <link>https://editoragatobravo.netlify.com/tags/</link>
+    <description>Recent content in Tags on Editora Gato Bravo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR</language>
+    
+	<atom:link href="https://editoragatobravo.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
